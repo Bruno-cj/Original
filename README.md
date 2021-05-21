@@ -24,7 +24,7 @@ First step was a weighted greedy algorithm and then I added simulated annealing 
 When I looked over the map of my solution, I noticed that my bank robber was criss-crossing across the board. I mean that his/her path was crossing over itself which is actually an inefficiency if you think about it. You should not be walking over the same spot twice in a totally optimized path. So I wrote an algorithm to find all crossed paths and elminate them. This got the bank robber that last incremental loot I was looking for. See the comparison of the two paths below (unoptimized on the left; no criss-crossed paths on the right).
 
 <p align="center">
-    <img src="./Images/criss-crossed2.png" height="350" title="hover text">
-    <img src="./Images/No_crossed_paths.png" height="350" title="hover text">
+    <img src="./Images/criss-crossed3.png" height="400" title="hover text">
+    <img src="./Images/No_crossed_paths2.png" height="400" title="hover text">
 </p>
 
